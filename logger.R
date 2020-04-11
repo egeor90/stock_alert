@@ -1,5 +1,5 @@
 # Every hour
-setwd("/home/ege/AsiaStocks/logs/")
+setwd(".../logs/")
 
 a <- as.POSIXct(gsub("^\\s+|\\s+$", "",gsub(pattern = "UTC:.*","",x = readLines("outfile.txt"))), 
                 format = "%Y-%m-%d %H:%M", tz = "UTC")
