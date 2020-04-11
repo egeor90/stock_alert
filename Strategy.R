@@ -1,7 +1,7 @@
 # Strategy
 # Apply everyday at 02:00
 options(warn=-1)
-setwd("/home/ege/AsiaStocks/")
+setwd("...")
 path_ <- paste0(getwd(),"/Shanghai2.csv")
 
 source("functions.R")
