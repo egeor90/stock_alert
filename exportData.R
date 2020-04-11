@@ -1,7 +1,7 @@
 # Export Data
 # everyday at 23:00
 
-setwd("/home/ege/AsiaStocks/")
+setwd("...")
 path_ <- paste0(getwd(),"/Shanghai2.csv")
 
 source("functions.R")
